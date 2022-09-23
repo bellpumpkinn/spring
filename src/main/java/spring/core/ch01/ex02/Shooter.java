@@ -17,3 +17,10 @@ public class Shooter {
 		gun.fire();
 	}
 }
+
+/*
+DI는 생성자와 setter 2가지방법이있다. 
+@NoArgsConstructor : 파라미터가 없는 기본생성자 자동생성
+@AllArgsConstructor : 모든 필드 값을 파라미터로 받는 생성자 자동생성.
+
+*/

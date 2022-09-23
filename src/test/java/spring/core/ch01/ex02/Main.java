@@ -14,3 +14,13 @@ public class Main {
 		shooter2.fire();
 	}
 }
+
+/*
+xml문서를 읽어들일수있는 컨테이너 = ClassPathXmlApplicationContext
+컨테이너 준비됐으면 (=IOC DI가 완료됐으면)
+
+shooter1의 bean을 꺼내는거 getBean.
+
+spring.core에서는 
+IOC DI AOP 개념 익히는게 주.
+*/

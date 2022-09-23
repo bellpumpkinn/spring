@@ -18,3 +18,12 @@
 		<property name='gun' ref='rifle'/>
 	</bean>
 </beans>
+
+<!--  
+IOC는 스프링컨테이너가 할거다.
+라이플이라는 빈을 만들면돼. 그리고 new한다음에 ex01.Rifle클래스를 쓰면돼 알려줌.
+shooter는 gun이 있어야하니까 dependency를 받는다.(11번줄)
+파라미터 밸류가 bean일때는 ref로 받는데 bean의 id를 써주면 된다.(12번줄)
+
+세터 이용시에는 property로 쓴다. 16번줄.
+ -->
