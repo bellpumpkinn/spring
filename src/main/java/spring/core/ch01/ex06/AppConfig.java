@@ -17,4 +17,6 @@ public class AppConfig {
 
 NoComponent빼고 IoC시킬거다.
 
+excludeFilters 제외시키는 필터.
+NoComponent붙어져있으면 IOC에서 제외시킨다.
 */

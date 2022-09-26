@@ -12,7 +12,9 @@ public class AppConfig {
 
 /*
  
-스캐닝을 하다가,
-@Component가 붙어있는걸 IOC한다.
+베이스패키지 이하를 스캐닝을 하다가,
+@Component가 붙어있는걸 보면 IOC한다.
 
+
+spring.core.ch01.ex05는 루트패키지(베이스패키지)
 */

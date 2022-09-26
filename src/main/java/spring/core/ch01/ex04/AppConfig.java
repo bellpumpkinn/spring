@@ -37,5 +37,9 @@ public class AppConfig {
 @Autowired  -=> DI하는 목적으로 쓴다.
 @Autowired를 하면 컨테이너는 해당 빈을 찾아서 DI를 채운다.
 
+DI는 @Autowired로 표현
 
+@Autowired 일치하는 하나의 타입을 인젝션한다. (싱글톤이라서)
+근데 해당타입의 bean 이 n개가 있으면 변수까지 고려해서
+인젝션시킨다.
 */
