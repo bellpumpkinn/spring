@@ -11,6 +11,7 @@ public class Main {
 		Rabbit rabbit = ctx.getBean(Rabbit.class);
 		
 		System.out.println(calculator.calc().getResult());
+		//계산기의 calc()를 콜한다. 
 		System.out.println(rabbit.sleep().getResult());
 	}
 }
