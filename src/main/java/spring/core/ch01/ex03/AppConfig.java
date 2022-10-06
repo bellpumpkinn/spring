@@ -48,6 +48,7 @@ public class AppConfig {
 configuration에 있는 메서드들은 id라서 명사로 쓴다.
 rifle()  pistol()이 빈의 id.
 
+
 shooter1은 총을 받아야지 할수있다.
 
 
